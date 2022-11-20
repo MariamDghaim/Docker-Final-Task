@@ -29,11 +29,20 @@ pipeline{
 			}
 		}
 	}
-
-	post {
-		always {
-			sh 'docker logout'
-		}
-	}
+post {
+       // only triggered when blue or green sign
+       success {
+           slackSend color: "good", message: "Image has been built and sent!"
+       }
+       
+       failure {
+          slackSend color: "danger", message: "Failed"
+       }
+       // trigger every-works
+       always {
+           slackSend color: "normal", message: "Job done"
+	       sh 'docker logout'
+       }
+    }
 
 }
