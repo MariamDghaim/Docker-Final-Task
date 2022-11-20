@@ -1,5 +1,7 @@
-[![](https://ml.globenewswire.com/Resource/Download/c83c4886-b215-4cf0-a973-64b8f65e7003)](https://ml.globenewswire.com/Resource/Download/c83c4886-b215-4cf0-a973-64b8f65e7003)
 # Docker Final Task
+
+[![](https://ml.globenewswire.com/Resource/Download/c83c4886-b215-4cf0-a973-64b8f65e7003)](https://ml.globenewswire.com/Resource/Download/c83c4886-b215-4cf0-a973-64b8f65e7003)
+
 1- Create a Python Web APP (use either Flask or FastAPI libraries) that:
 ● Presents the Current BitCoin Price
 ● Stores the price in a Redis Database
