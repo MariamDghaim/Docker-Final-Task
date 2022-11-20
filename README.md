@@ -26,6 +26,8 @@
 - Stop App Run
 ```sh
   docker compose down
+ 
+ 
 > #### Local running output:
 
 [![](https://github.com/MariamDghaim/Docker-Final-Task/blob/main/screen%20shots/Screenshot%202022-11-20%20202759.png?raw=true)](https://github.com/MariamDghaim/Docker-Final-Task/blob/main/screen%20shots/Screenshot%202022-11-20%20202759.png?raw=true)
@@ -38,6 +40,8 @@
 
 3- Create a Jenkinsfile for CI/CD that creates and pushes the generated Web application Docker image to Docker Hub
 > #### Running on Jenkins:
+
+
 [![](https://github.com/MariamDghaim/Docker-Final-Task/blob/main/screen%20shots/Screenshot%202022-11-20%20194900.png?raw=true)](https://github.com/MariamDghaim/Docker-Final-Task/blob/main/screen%20shots/Screenshot%202022-11-20%20194900.png?raw=true)
 
 > #### Sending a success massege on Slack:
