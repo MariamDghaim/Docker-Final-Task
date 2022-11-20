@@ -8,7 +8,7 @@
 ------------
 ### - To run the project on your computer:
 - Clone the project: **git clone https://github.com/MariamDghaim/Docker-Final-Task.git**
-- Go to the project directory: ****cd Docker-Final-Task ***
+- Go to the project directory: **cd Docker-Final-Task **
   
 - Then build: **docker compose up**
  
