@@ -1,5 +1,6 @@
 pipeline{
-
+	
+	//run the job on any of the available nodes
 	agent any
 
 	environment {
